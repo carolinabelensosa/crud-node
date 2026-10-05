@@ -1,20 +1,38 @@
 [
   {
-    "id": 1791067127303,
-    "nombre": "editadoo",
-    "categoria": "D",
-    "descripcion": "Hola",
-    "precio": 5000,
-    "stock": 500,
+    "id": 1,
+    "nombre": "Remera básica blanca",
+    "categoria": "Remeras",
+    "descripcion": "Remera de algodón de corte clásico.",
+    "precio": 58000,
+    "stock": 6,
     "disponible": true
   },
   {
-    "id": 1791156061232,
-    "nombre": "",
-    "categoria": "",
-    "descripcion": "",
-    "precio": 0,
-    "stock": 0,
-    "disponible": false
+    "id": 2,
+    "nombre": "Jean clásico azul",
+    "categoria": "Pantalones",
+    "descripcion": "Jean azul de corte recto para uso diario.",
+    "precio": 42000,
+    "stock": 10,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "nombre": "Buzo negro",
+    "categoria": "Buzos",
+    "descripcion": "Buzo de algodón con capucha y bolsillo delantero.",
+    "precio": 35000,
+    "stock": 8,
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "nombre": "Campera de jean",
+    "categoria": "Camperas",
+    "descripcion": "Campera de jean clásica para usar durante todo el año.",
+    "precio": 55000,
+    "stock": 5,
+    "disponible": true
   }
 ]

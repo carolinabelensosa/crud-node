@@ -1,17 +1,22 @@
 [
   {
     "id": 1,
-    "nombre": "Carolina edit",
-    "edad": 27
+    "nombre": "Carolina",
+    "edad": 25
+  },
+  {
+    "id": 2,
+    "nombre": "Sofia",
+    "edad": 23
   },
   {
     "id": 3,
-    "nombre": "Maria",
-    "edad": 22
+    "nombre": "Lucas",
+    "edad": 27
   },
   {
-    "id": 1791068753812,
-    "nombre": "pedro",
-    "edad": 28
+    "id": 4,
+    "nombre": "Martina",
+    "edad": 21
   }
 ]
