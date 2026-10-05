@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+
+<h2>Productos</h2>
+
+<% products.forEach(producto => { %>
+    <article>
+        <a href="/product/detail/<%= producto.id %>">
+            <h4>
+                <%= producto.nombre %>
+            </h4>
+        </a>
+
+        <p>
+            $<%= producto.precio %>
+        </p>
+    </article>
+<% }) %>
+
+<%- include('partials/footer.ejs') %>

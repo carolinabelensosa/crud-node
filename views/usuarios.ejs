@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+
+<h1>Lista de usuarios</h1>
+
+<ul>
+    <% usuarios.forEach(usuario => { %>
+        <li>
+            <%= usuario.nombre %> - <%= usuario.edad %> años
+        </li>
+    <% }) %>
+</ul>
+
+<%- include("partials/footer") %>

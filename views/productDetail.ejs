@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs') %>
+
+<section>
+    <h2>Detalle de Producto</h2>
+
+    <h3><%= product.nombre %></h3>
+    <p><%= product.descripcion %></p>
+    <p><%= product.categoria %></p>
+    <p><%= product.precio %></p>
+</section>
+
+<section>
+    <a href="/product/editProduct/<%=product.id%>"> Editar </a>
+
+    <form action="/product/delete/<%=product.id%>?_method=DELETE" method="post">
+        <button type="submit">Eliminar</button>
+    </form>
+</section>
+
+<%- include('partials/footer.ejs') %>

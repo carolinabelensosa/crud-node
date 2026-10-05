@@ -1,0 +1,30 @@
+<%- include('partials/header.ejs') %>
+
+    <h2>Editar producto</h2>
+
+    <form action="/product/editProduct/<%= product.id %>?_method=PUT" method="POST">
+
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" value="<%= product.nombre %>">
+
+        <label for="category">Categoría</label>
+        <input type="text" name="category" id="category" value="<%= product.categoria %>">
+
+        <label for="description">Descripción</label>
+        <textarea name="description" id="description"><%= product.descripcion %></textarea>
+
+        <label for="price">Precio</label>
+        <input type="number" name="price" id="price" value="<%= product.precio %>">
+
+        <label for="stock">Stock</label>
+        <input type="number" name="stock" id="stock" value="<%= product.stock %>">
+
+        <label for="available">Disponible</label>
+        <input type="checkbox" name="available" id="available" <%=product.disponible ? "checked" : "" %>
+        >
+
+        <button type="submit">Guardar cambios</button>
+
+    </form>
+
+    <%- include('partials/footer.ejs') %>

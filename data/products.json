@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1791067127303,
+    "nombre": "editadoo",
+    "categoria": "D",
+    "descripcion": "Hola",
+    "precio": 5000,
+    "stock": 500,
+    "disponible": true
+  },
+  {
+    "id": 1791156061232,
+    "nombre": "",
+    "categoria": "",
+    "descripcion": "",
+    "precio": 0,
+    "stock": 0,
+    "disponible": false
+  }
+]

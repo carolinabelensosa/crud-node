@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs') %>
+
+    <h1>
+        <%= titulo %>
+    </h1>
+
+    <h2>
+        <%= usuario.nombre %>
+    </h2>
+
+    <p>Edad: <%= usuario.edad %> años</p>
+
+    <a href="/usuarios/editUsuario/<%= usuario.id %>">Editar</a>
+
+    <form action="/usuarios/delete/<%= usuario.id %>?_method=DELETE" method="POST">
+        <button type="submit">Eliminar</button>
+    </form>
+
+    <a href="/usuarios">Volver a usuarios</a>
+
+    <%- include('partials/footer.ejs') %>
